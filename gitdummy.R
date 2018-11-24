@@ -4,6 +4,7 @@ model <- function(t, state, parms) {
     
     #now make some change in the model
     #another change
+    #yet another change
     dM = a*M - b*S*M -eps*M^2
     dS = b*S*M - d*S
     
