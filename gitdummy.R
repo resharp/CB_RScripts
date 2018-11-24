@@ -3,6 +3,7 @@ model <- function(t, state, parms) {
   with(as.list(c(state,parms)), { 
     
     #now make some change in the model
+    #another change
     dM = a*M - b*S*M -eps*M^2
     dS = b*S*M - d*S
     
